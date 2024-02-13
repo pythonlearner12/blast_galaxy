@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+    <title>
+        Nxt Museum
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul id="top_nav">
+                <img src="img/logo.png" alt="logo of the nxt museum">
+                
+                <button onclick="myFunction()" class="DarkModeButton">Dark Mode</button>
+
+                <script>
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("DarkMode");
+                    }
+                </script>
+                <li><a href="#Shop">Shop</a></li>
+                <li><a href="#Search">Search</a></li>
+                <li><a href="#Donate">Donate</a></li>
+            </ul>
+
+            <!--shows sub options when hovering over button-->
+            <ul id="bottom_nav">
+
+
+
+                <li class="dropdown">
+                    <button class="dropbtn">Visit</button>
+                    <ul class="dropdown_content">
+                        <li><a
+                                href="https://store.blastgalaxy.nl/product/entry-ticket-day/">Buy
+                                Ticket</a></li>
+                        <li><a href="#Accessibility">Accessibility</a></li>
+                        <li><a href="#food_and_drinks">Food and Drinks</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">Exhibitions and Events</button>
+                    <ul class="dropdown_content">
+                        <li><a href="#Exhibitions">Exhibitions</a></li>
+                        <li><a href="#events_and_tours">Events and Tours</a></li>
+                        <li><a href="#performances">Performances</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">Membership</button>
+                    <ul class="dropdown_content">
+                        <li><a href="#buy_Membership">Buy Membership</a></li>
+                        <li><a href="#renew_Membership">Renew Membership</a></li>
+                        <li><a href="#Upgrade_Membership">Upgrade Membership</a></li>
+                        <li><a href="#Members_Room">Members Room</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <button class="dropbtn">Support us</button>
+                    <ul class="dropdown_content">
+                        <li><a href="#Become_a_Patron">Become a Patron</a></li>
+                        <li><a href="#Become_a_Volunteer">Become a Volunteer</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero image with introduction text -->
+    <figure>
+        <div id="hero_image">
+            <figcaption id="intro_text">
+                <h3 class="sub_title_bottom_spacing">Welcome to galaxy blast</h3>
+                <p>
+                    Blast Galaxy is the ultimate destination for groups looking for a day filled with classic arcade fun. 
+                    We’ve redefined the traditional experience in a modern arcade club, 
+                    while safeguarding the soul and spirit of the classic arcade – 
+                    combining a great atmosphere and a quality and creative menu with a unique selection of more than 100 amazing arcade games.
+                </p>
+            </figcaption>
+        </div>
+    </figure>
+
+    <main>
+
+        <!--image slider-->
+        <div id="Exb_Events_slider_container">
+
+            <h2 id="sub_title_weird">Exhibitions and Events</h2>
+            <ul class="slider">
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/sinterklaas.png"
+                            alt="people talking with wine in nxt museum">
+                        <figcaption class="Exb_Events_figcap">
+                            <h2 class="Exb_Events_sub_title">sinterklaas</h2>
+                            <p class="sub_text">
+                                Good old Sinterklaas and his trusted companions will visit Blast Galaxy.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/shirt.png" alt="statue of an alien like person">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">merch</h3>
+                            <p class="sub_text">
+                                Check out our brand new webshop. The link to the webshop is on the homepage.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/pac_man.png"
+                            alt="person sitting on chair while falling down onto earth">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">pacman</h3>
+                            <p class="sub_text">
+                                Blast Galaxy is open from Thursday November 19th!!
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/man.png" alt="spider like creature">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">opening</h3>
+                            <p class="sub_text">
+                                This Friday the 7th of April we are open earlier, so from 12h o'clock!
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/monkey.png" alt="people enjoying a disco party">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">holiday's</h3>
+                            <p class="sub_text">
+                                Due to the holidays Blast Galaxy is closed, we'll be back on the 5th of January.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+
+                <li class="slide_show_piece">
+                    <figure>
+
+                        <img class="Exb_Events_imgs" src="img/arcade_photo6.jpg" alt="dj playing music">
+                        <figcaption class="Exb_Events_figcap">
+                            <h3 class="Exb_Events_sub_title">ADE Beat</h3>
+                            <p class="sub_text">
+                                Kicking off with a performance by gamer and coder YUXI CAO.
+                            </p>
+                        </figcaption>
+
+                    </figure>
+                </li>
+
+            </ul>
+
+
+
+
+
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+            <script>
+                $(document).ready(function () {
+
+                    $('.slider').slick({
+                        slidesToShow: 3,   // Show 3 slides at once
+                        slidesToScroll: 1, // Scroll 1 slide at a time
+                        arrows: true,     // We're using custom navigation buttons
+                    });
+
+                    // Custom navigation buttons
+                    $('.slick-prev').on('click', function () {
+                        $('.slider').slick('slickPrev');
+                    });
+
+                    $('.slick-next').on('click', function () {
+                        $('.slider').slick('slickNext');
+                    });
+                });
+            </script>
+
+
+
+        </div>
+
+        <!--virtual_gallery-->
+        <div>
+            <h2 class="sub_title_bottom_spacing">foods</h2>
+
+            <ul id="virtual_gallery_list">
+                <li>
+                    <figure>
+                        <img class="virtual_gallery_image" src="img/food.jpg" alt="abstract art">
+                        <figcaption class="virt_gal_figcap">
+                            <p class="sub_text">
+                                fries with sauce
+                            </p>
+
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <img class="virtual_gallery_image" src="img/food2.jpg" alt="abstract art">
+                        <figcaption class="virt_gal_figcap">
+
+                            <p class="sub_text">
+                                bitterballen with sauce
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <img class="virtual_gallery_image" src="img/food3.jpg" alt="abstract art">
+                        <figcaption class="virt_gal_figcap">
+
+                            <p class="sub_text">
+                                chicken wings with hot sauce
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+                <li>
+                    <figure>
+                        <img class="virtual_gallery_image" src="img/food4.jpg" alt="abstract art">
+                        <figcaption class="virt_gal_figcap">
+
+                            <p class="sub_text">
+                                idk fish?
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <!--google_reviews-->
+        <div>
+            <h2 class="sub_title_bottom_spacing">Reviews</h2>
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-5ea82e79-a692-4a5d-a5d9-306d88a21444" data-elfsight-app-lazy></div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <!--footer info-->
+        <nav id="footer_nav">
+
+            <div id="footer_container">
+                <!--weird_row has a 1/3, 2/3 split-->
+                <div id="weird_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Connect With Us</h4>
+                        <a href="https://blastgalaxy.nl/"><img class="img_logo" src="img/instagram.png" alt="instagram logo"></a>
+                        <a href="https://blastgalaxy.nl/"><img class="img_logo" src="img/tiktok.png" alt="tiktok logo"></a>
+                        <a href="https://blastgalaxy.nl/"><img class="img_logo" src="img/twitter.png" alt="twitter logo"></a>
+                        <a href="https://blastgalaxy.nl/"><img class="img_logo" src="img/youtube.png" alt="youtube logo"></a>
+                    </div>
+
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Enter your email address to receive our newsletter</h4>
+                        <input id="newsletter">
+                        <button id="newsletter_button">sign up</button>
+                    </div>
+                </div>
+
+                <div class="normal_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Address</h4>
+                        <p id="footer_address">
+                            Magneetstraat 5
+                            1014 CC
+                            Amsterdam
+                        </p>
+                    </div>
+
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Opening hours</h4>
+                        <ul>
+                            <li>thursday: 12:00-18:00</li>
+                            <li>friday: 16:00-23:00</li>
+                            <li>saturday: 16:00-00:30</li>
+                            <li>sunday: 12:00-20:00</li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Visit</h4>
+                        <ul>
+                            <li><a href="#test">Guided Tours</a></li>
+                            <li><a href="#test">Group Visits</a></li>
+                            <li><a href="#test">Workshops</a></li>
+                            <li><a href="#test">Private Museum Visit</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="normal_row">
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">About Us</h4>
+                        <ul>
+                            <li><a href="test">Our Story</a></li>
+                            <li><a href="test">Jobs</a></li>
+                            <li><a href="test">Contact Us</a></li>
+                            <li><a href="test">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-item">
+                        <h4 class="sub_title_bottom_spacing">Licensing</h4>
+                        <ul>
+                            <li><a href="test">T’s and C’s (visitor terms)</a></li>
+                            <li><a href="test">Cookie statement</a></li>
+                            <li><a href="test">Privacy policy</a></li>
+                            <li><a href="test">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+    </footer>
+
+</body>
+
+</html>
