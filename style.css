@@ -16,7 +16,7 @@
 body
 {
   color: rgb(255, 255, 255);
-  background-color: black; 
+  background-color: #19152a; 
 }
 
 .DarkModeButton
@@ -162,10 +162,15 @@ header
 }
 
 #intro_text {
-  padding: 400px 0 0 150px; /* top right bottom left */
+  padding: 20px 20px 35px 20px; /* top right bottom left */
+  position: absolute;
+  top: 750px;
+  left: 310px;
   max-width: 400px;
+  border-radius: 15px;
   font-size: 1.5rem;
-  color: black;
+  background-color: #19152a;
+  color: white;
 }
 
 
@@ -205,6 +210,8 @@ main > *
 
 .Exb_Events_imgs
 {
+  background-color: #141123;
+  object-fit: contain;
   width: 394px;
   height: 250px;
 }
