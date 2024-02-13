@@ -242,6 +242,7 @@ main > *
 .virtual_gallery_image
 {
   /* lines up the edges with the rest of the webisite*/
+  object-fit: cover;
   width: 280px;
   height: 280px;
 }
@@ -265,7 +266,9 @@ main > *
   /* google reviews become wider*/
   width: 290px !important;
 }
-
+#aboutUs{
+  max-width: 1000px;
+}
 
 #footer_nav {
   display: flex;
